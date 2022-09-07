@@ -18,7 +18,7 @@ h1 {
 @media only screen and (max-width: 768px) {
   .imgNormalizadaCarousel img {
     width: auto;
-    height: auto; } }
+    height: 230px; } }
 
 .gridPinturas {
   display: grid;
@@ -96,10 +96,9 @@ a {
 .carousel-caption a {
   color: whitesmoke;
   transition: font-size 2s; }
-
-.carousel-caption a:hover {
-  font-size: 1.5rem;
-  color: #850202; }
+  .carousel-caption a:hover {
+    font-size: 1.5rem;
+    color: #850202; }
 
 footer {
   padding: 20px 0;

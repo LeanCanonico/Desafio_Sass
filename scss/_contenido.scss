@@ -10,7 +10,7 @@ h1{
 @media only screen and (max-width: 768px) {
 	.imgNormalizadaCarousel img{
 		width: auto;
-		height: auto;
+		height: 230px;
 		
 	}
 }
@@ -100,8 +100,8 @@ a{
 .carousel-caption a{
 	color: $colorA;
 	transition: font-size 2s;
-}
-.carousel-caption a:hover{
-	font-size: 1.5rem;
-	color: $colorAtransicion;
+	&:hover{
+		font-size: 1.5rem;
+		color: $colorAtransicion;
+	}
 }
