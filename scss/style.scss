@@ -1,4 +1,4 @@
-@import "colores.scss";
-@import "header.scss";
-@import "contenido.scss";
-@import "footer.scss";
+@import "base/colores";
+@import "componentes/header";
+@import "componentes/contenido";
+@import "componentes/footer";
