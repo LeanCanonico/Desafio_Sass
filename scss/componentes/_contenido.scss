@@ -1,20 +1,20 @@
-h1{
-	margin-top: 2rem;
-}
-//index
-.imgNormalizadaCarousel img{
-	width: auto;
-	height: 1180px;
-	max-height: 1180px;
-}
-@media only screen and (max-width: 768px) {
-	.imgNormalizadaCarousel img{
+// INDEX
+.imgNormalizadaCarousel{
+	img{
 		width: auto;
-		height: 230px;
-		
+		height: 1180px;
+		max-height: 1180px;
 	}
 }
-//pinturas
+@media only screen and (max-width: 768px) {
+	.imgNormalizadaCarousel{
+		img{
+			width: auto;
+			height: 230px;
+		}	
+	}
+}
+// PINTURAS
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -80,28 +80,29 @@ h1{
 	.pintura-9 { grid-area: pintura-9; }
 	
 }
-//tatuajes
-.imgNormalizada img {
-	width: auto;
-	height: 800px;
-	max-height: 800px;
-}
-@media only screen and (max-width: 768px) {
-	.imgNormalizada img {
+// TATUAJES
+.imgNormalizada{
+	img{
 		width: auto;
-		height: auto;
+		height: 800px;
+		max-height: 800px;
 	}
 }
-//press
-a{
-	text-decoration: none;
-	color: $colorBlanco;
+@media only screen and (max-width: 768px) {
+	.imgNormalizada{
+		img{
+			width: auto;
+			height: auto;
+		}
+	}
 }
+// PRESS
 .carousel-caption a{
 	color: $colorBlanco;
 	transition: font-size 2s;
 	&:hover{
 		font-size: 1.5rem;
 		color: $colorAtransicion;
+		font-weight: bold;
 	}
 }

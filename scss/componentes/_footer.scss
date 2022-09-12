@@ -4,4 +4,9 @@ footer{
     p{
         color: $colorNegro;
     }
+    @media only screen and (max-width: 768px) {
+        .mailServadio, .logoInstagram{
+            margin: 20px;
+        }
+    }
 }
