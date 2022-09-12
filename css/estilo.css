@@ -2,21 +2,16 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Aboreto'; }
+  font-family: "Aboreto", cursive; }
 
 a {
   text-decoration: none;
   color: whitesmoke; }
 
-.imgNormalizadaCarousel img {
+.imgNormalizadaCarousel img, .imgNormalizada img img {
   width: auto;
   height: 1180px;
   max-height: 1180px; }
-
-@media only screen and (max-width: 768px) {
-  .imgNormalizadaCarousel img {
-    width: auto;
-    height: 230px; } }
 
 .gridPinturas {
   display: grid;
@@ -50,6 +45,23 @@ a {
 .pintura-9 {
   grid-area: pintura-9; }
 
+.imgNormalizada img {
+  height: 800px;
+  max-height: 800px; }
+
+.carousel-caption a {
+  color: whitesmoke;
+  transition: font-size 2s; }
+  .carousel-caption a:hover {
+    font-size: 1.5rem;
+    color: #850202;
+    font-weight: bold; }
+
+@media only screen and (max-width: 768px) {
+  .imgNormalizadaCarousel img, .imgNormalizada img img {
+    width: auto;
+    height: 230px; } }
+
 @media only screen and (max-width: 768px) {
   .gridPinturas {
     display: grid;
@@ -77,29 +89,17 @@ a {
   .pintura-9 {
     grid-area: pintura-9; } }
 
-.imgNormalizada img {
-  width: auto;
-  height: 800px;
-  max-height: 800px; }
-
 @media only screen and (max-width: 768px) {
   .imgNormalizada img {
     width: auto;
     height: auto; } }
 
-.carousel-caption a {
-  color: whitesmoke;
-  transition: font-size 2s; }
-  .carousel-caption a:hover {
-    font-size: 1.5rem;
-    color: #850202;
-    font-weight: bold; }
+@media only screen and (max-width: 768px) {
+  .mailServadio, .logoInstagram {
+    margin: 20px; } }
 
 footer {
   padding: 20px 0;
   color: whitesmoke; }
   footer p {
     color: black; }
-  @media only screen and (max-width: 768px) {
-    footer .mailServadio, footer .logoInstagram {
-      margin: 20px; } }

@@ -6,14 +6,6 @@
 		max-height: 1180px;
 	}
 }
-@media only screen and (max-width: 768px) {
-	.imgNormalizadaCarousel{
-		img{
-			width: auto;
-			height: 230px;
-		}	
-	}
-}
 // PINTURAS
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -43,66 +35,23 @@
 .pintura-9 { grid-area: pintura-9; }
 
 
-@media only screen and (max-width: 768px) {
-	.gridPinturas {  display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(9,1fr);
-		gap: 55px 50px;
-		grid-auto-flow: row;
-		grid-template-areas:
-		"pintura-1"
-		"pintura-2" 
-		"pintura-3"
-		"pintura-4" 
-		"pintura-5" 
-		"pintura-6"
-		"pintura-7"
-		"pintura-8"
-		"pintura-9";
-	}
-	
-	.pintura-1 { grid-area: pintura-1; }
-	
-	.pintura-2 { grid-area: pintura-2; }
-	
-	.pintura-3 { grid-area: pintura-3; }
-	
-	.pintura-4 { grid-area: pintura-4; }
-	
-	.pintura-6 { grid-area: pintura-6; }
-	
-	.pintura-5 { grid-area: pintura-5; }
-
-	.pintura-7 { grid-area: pintura-7; }
-	
-	.pintura-8 { grid-area: pintura-8; }
-	
-	.pintura-9 { grid-area: pintura-9; }
-	
-}
 // TATUAJES
 .imgNormalizada{
 	img{
-		width: auto;
+		@extend .imgNormalizadaCarousel;
 		height: 800px;
 		max-height: 800px;
 	}
 }
-@media only screen and (max-width: 768px) {
-	.imgNormalizada{
-		img{
-			width: auto;
-			height: auto;
-		}
-	}
-}
+
 // PRESS
-.carousel-caption a{
-	color: $colorBlanco;
-	transition: font-size 2s;
-	&:hover{
-		font-size: 1.5rem;
-		color: $colorAtransicion;
-		font-weight: bold;
+.carousel-caption{
+	a{
+		transition: font-size 2s;
+		&:hover{
+			font-size: 1.5rem;
+			color: $colorAtransicion;
+			font-weight: bold;
+		}
 	}
 }
