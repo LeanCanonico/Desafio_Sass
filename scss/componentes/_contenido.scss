@@ -1,11 +1,10 @@
 // INDEX
 .imgNormalizadaCarousel{
 	img{
-		width: auto;
-		height: 1180px;
-		max-height: 1180px;
+		@include tamanos(auto, 1180px, 1180px); 
 	}
 }
+
 // PINTURAS
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -43,6 +42,8 @@
 		max-height: 800px;
 	}
 }
+
+// CONTACTO
 
 // PRESS
 .carousel-caption{

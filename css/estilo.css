@@ -50,11 +50,10 @@ a {
   max-height: 800px; }
 
 .carousel-caption a {
-  color: whitesmoke;
   transition: font-size 2s; }
   .carousel-caption a:hover {
     font-size: 1.5rem;
-    color: #850202;
+    color: #962300;
     font-weight: bold; }
 
 @media only screen and (max-width: 768px) {
@@ -99,7 +98,6 @@ a {
     margin: 20px; } }
 
 footer {
-  padding: 20px 0;
-  color: whitesmoke; }
+  padding: 20px 0; }
   footer p {
     color: black; }

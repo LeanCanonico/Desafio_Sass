@@ -1,5 +1,13 @@
-//variables
+// VARIABLES
 $colorBlanco: whitesmoke;
 $colorNegro: black;
-$colorAtransicion: rgb(133,2,2);
+$colorAtransicion: rgb(150, 35, 0);
 $fontPrincipal: 'Aboreto', cursive;
+// MIXINS
+@mixin tamanos($ancho, $alto, $maxAlto) {
+    width: $ancho;
+    height: $alto;
+    max-height: $maxAlto;
+}
+// MAPS
+
