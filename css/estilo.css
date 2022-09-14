@@ -59,7 +59,7 @@ a {
 @media only screen and (max-width: 768px) {
   .imgNormalizadaCarousel img, .imgNormalizada img img {
     width: auto;
-    height: 230px; } }
+    height: 285px; } }
 
 @media only screen and (max-width: 768px) {
   .gridPinturas {
