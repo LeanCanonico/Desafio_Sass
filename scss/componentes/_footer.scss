@@ -4,3 +4,9 @@ footer{
         color: $colorNegro;
     }
 }
+
+.logoInstagram{
+    &:hover{
+        background-color: map-get($redes, instagram);
+    }
+}
