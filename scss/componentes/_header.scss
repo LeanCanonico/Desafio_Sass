@@ -7,6 +7,10 @@
 }
 
 // HEADER
+.logoNav{
+	filter: opacity(0.4) drop-shadow(0 0  0 $colorBlanco);
+}
+
 a{
 	text-decoration: none;
 	color: $colorBlanco;

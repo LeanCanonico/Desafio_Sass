@@ -1,3 +1,16 @@
+// GENERAL
+body{
+	background-image: url("https://d2jv9003bew7ag.cloudfront.net/uploads/Servadio-sizing-grounds-vineyard.jpg");
+}
+
+.textColor{
+	color: $colorBlanco;
+}
+.bgColor{
+	background-color: rgb(22, 22, 22);
+	filter: opacity(90%);
+}
+
 // INDEX
 .imgNormalizadaCarousel{
 	img{
@@ -14,15 +27,12 @@
 	}
 }
 
-// CONTACTO
-
 // PRESS
 .carousel-caption{
 	a{
 		transition: font-size 2s;
 		&:hover{
-			font-size: 1.5rem;
-			color: $colorAtransicion;
+			color: map-get($redes, instagram);
 			font-weight: bold;
 		}
 	}

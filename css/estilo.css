@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Aboreto", cursive; }
 
+.logoNav {
+  filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke); }
+
 a {
   text-decoration: none;
   color: whitesmoke; }
@@ -40,6 +43,16 @@ a {
 .pintura-9 {
   grid-area: pintura-9; }
 
+body {
+  background-image: url("https://d2jv9003bew7ag.cloudfront.net/uploads/Servadio-sizing-grounds-vineyard.jpg"); }
+
+.textColor {
+  color: whitesmoke; }
+
+.bgColor {
+  background-color: #161616;
+  filter: opacity(90%); }
+
 .imgNormalizadaCarousel img, .imgNormalizada img img {
   width: auto;
   height: 1180px;
@@ -52,13 +65,12 @@ a {
 .carousel-caption a {
   transition: font-size 2s; }
   .carousel-caption a:hover {
-    font-size: 1.5rem;
-    color: #962300;
+    color: #c21a1a;
     font-weight: bold; }
 
 @media only screen and (max-width: 768px) {
   .imgNormalizadaCarousel img, .imgNormalizada img img {
-    width: auto;
+    width: 100%;
     height: 285px; } }
 
 @media only screen and (max-width: 768px) {
@@ -98,9 +110,11 @@ a {
     margin: 20px; } }
 
 footer {
+  background-color: #161616;
+  filter: opacity(95%);
   padding: 20px 0; }
   footer p {
-    color: black; }
+    color: whitesmoke; }
 
 .logoInstagram:hover {
   background-color: #c21a1a; }
