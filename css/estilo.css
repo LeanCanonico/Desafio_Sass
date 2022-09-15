@@ -44,14 +44,14 @@ a {
   grid-area: pintura-9; }
 
 body {
-  background-image: url("https://d2jv9003bew7ag.cloudfront.net/uploads/Servadio-sizing-grounds-vineyard.jpg"); }
+  background-image: url("https://d2jv9003bew7ag.cloudfront.net/uploads/Servadio-old-wall-in-hacney-1200x1200.jpg"); }
 
 .textColor {
   color: whitesmoke; }
 
 .bgColor {
   background-color: #161616;
-  filter: opacity(90%); }
+  filter: opacity(97%); }
 
 .imgNormalizadaCarousel img, .imgNormalizada img img {
   width: auto;
@@ -111,10 +111,12 @@ body {
 
 footer {
   background-color: #161616;
-  filter: opacity(95%);
+  filter: opacity(98%);
   padding: 20px 0; }
   footer p {
-    color: whitesmoke; }
+    color: #414141; }
 
-.logoInstagram:hover {
-  background-color: #c21a1a; }
+.logoInstagram {
+  filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke); }
+  .logoInstagram:hover {
+    background-color: #c21a1a; }

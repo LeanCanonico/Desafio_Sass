@@ -1,13 +1,14 @@
 footer{
     background-color: rgb(22, 22, 22);
-	filter: opacity(95%); 
+	filter: opacity(98%); 
 	padding: 20px 0;
     p{
-        color: $colorBlanco;
+        color: rgb(65, 65, 65);
     }
 }
 
 .logoInstagram{
+    filter: opacity(0.4) drop-shadow(0 0  0 $colorBlanco);
     &:hover{
         background-color: map-get($redes, instagram);
     }
