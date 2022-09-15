@@ -2,6 +2,7 @@
 $colorBlanco: whitesmoke;
 $colorNegro: black;
 $fontPrincipal: 'Aboreto', cursive;
+
 // MIXINS
 @mixin tamanos($ancho, $alto, $maxAlto) {
     width: $ancho;
