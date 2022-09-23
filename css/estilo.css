@@ -68,6 +68,11 @@ body {
     color: #c21a1a;
     font-weight: bold; }
 
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
 @media only screen and (max-width: 768px) {
   .imgNormalizadaCarousel img, .imgNormalizada img img {
     width: 100%;
