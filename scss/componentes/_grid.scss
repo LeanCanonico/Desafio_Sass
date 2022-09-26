@@ -1,4 +1,17 @@
 // PINTURAS
+.contenedorGridPinturas{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas:
+	"headerPinturas"
+	"mainPinturas"
+	"footerPinturas";
+}
+.headerPinturas{grid-area: header;}
+.mainPinturas{grid-area: main;}
+.footerPinturas{grid-area: footer;}
+
 .gridPinturas {  
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;

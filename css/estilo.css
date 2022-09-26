@@ -11,6 +11,21 @@ a {
   text-decoration: none;
   color: whitesmoke; }
 
+.contenedorGridPinturas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "headerPinturas" "mainPinturas" "footerPinturas"; }
+
+.headerPinturas {
+  grid-area: header; }
+
+.mainPinturas {
+  grid-area: main; }
+
+.footerPinturas {
+  grid-area: footer; }
+
 .gridPinturas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,7 +86,8 @@ body {
 .flexContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  padding: 20px; }
 
 @media only screen and (max-width: 768px) {
   .imgNormalizadaCarousel img, .imgNormalizada img img {
@@ -109,6 +125,13 @@ body {
   .imgNormalizada img {
     width: auto;
     height: auto; } }
+
+@media only screen and (max-width: 768px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column; }
+    .flexContainer .formContacto {
+      padding-bottom: 25px; } }
 
 @media only screen and (max-width: 768px) {
   .mailServadio, .logoInstagram {
