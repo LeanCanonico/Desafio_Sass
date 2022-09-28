@@ -8,11 +8,12 @@ body{
 }
 .bgColor{
 	background-color: rgb(22, 22, 22);
-	filter: opacity(97%);
+	filter: opacity(99%);
 }
 
 // INDEX
 .imgNormalizadaCarousel{
+	object-fit: contain;
 	img{
 		@include tamanos(auto, 1180px, 1180px); 
 	}

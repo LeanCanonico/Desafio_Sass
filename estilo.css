@@ -15,7 +15,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "headerPinturas" "mainPinturas" "footerPinturas"; }
+  grid-template-areas: "headerPinturas" "mainPinturas" "footerPinturas"; }
 
 .headerPinturas {
   grid-area: header; }
@@ -32,7 +32,7 @@ a {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 55px 50px;
   grid-auto-flow: row;
-  grid-template-areas: "pintura-1 pintura-2 pintura-3" "pintura-4 pintura-5 pintura-6" "pintura-7 pintura-8 pintura-9"; }
+  grid-template-areas: "pintura-1 pintura-2 pintura-3" "pintura-4 pintura-5 pintura-6" "pintura-7 pintura-8 pintura-9"; }
 
 .pintura-1 {
   grid-area: pintura-1; }
@@ -66,14 +66,12 @@ body {
 
 .bgColor {
   background-color: #161616;
-  filter: opacity(99%); }
+  filter: opacity(97%); }
 
-.imgNormalizadaCarousel, .imgNormalizada img {
-  object-fit: contain; }
-  .imgNormalizadaCarousel img, .imgNormalizada img img {
-    width: auto;
-    height: 1180px;
-    max-height: 1180px; }
+.imgNormalizadaCarousel img, .imgNormalizada img img {
+  width: auto;
+  height: 1180px;
+  max-height: 1180px; }
 
 .imgNormalizada img {
   height: 800px;
@@ -103,7 +101,7 @@ body {
     grid-template-rows: repeat(9, 1fr);
     gap: 55px 50px;
     grid-auto-flow: row;
-    grid-template-areas: "pintura-1" "pintura-2"  "pintura-3" "pintura-4"  "pintura-5"  "pintura-6" "pintura-7" "pintura-8" "pintura-9"; }
+    grid-template-areas: "pintura-1" "pintura-2"  "pintura-3" "pintura-4"  "pintura-5"  "pintura-6" "pintura-7" "pintura-8" "pintura-9"; }
   .pintura-1 {
     grid-area: pintura-1; }
   .pintura-2 {
@@ -141,6 +139,7 @@ body {
 
 footer {
   background-color: #161616;
+  filter: opacity(98%);
   padding: 20px 0; }
   footer p {
     color: #414141; }
