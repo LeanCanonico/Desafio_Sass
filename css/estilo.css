@@ -68,16 +68,12 @@ body {
   background-color: #161616;
   filter: opacity(99%); }
 
-.imgNormalizadaCarousel, .imgNormalizada img {
+.imgNormalizadaCarousel {
   object-fit: contain; }
-  .imgNormalizadaCarousel img, .imgNormalizada img img {
+  .imgNormalizadaCarousel img {
     width: auto;
     height: 1180px;
     max-height: 1180px; }
-
-.imgNormalizada img {
-  height: 800px;
-  max-height: 800px; }
 
 .carousel-caption a {
   transition: font-size 2s; }
@@ -92,7 +88,10 @@ body {
   padding: 20px; }
 
 @media only screen and (max-width: 768px) {
-  .imgNormalizadaCarousel img, .imgNormalizada img img {
+  .logoNav {
+    height: 5em;
+    width: 5em; }
+  .imgNormalizadaCarousel img {
     width: 100%;
     max-height: 285px; } }
 
