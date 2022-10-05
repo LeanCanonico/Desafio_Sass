@@ -13,10 +13,18 @@ body{
 
 // INDEX
 .imgNormalizadaCarousel{
-	object-fit: contain;
 	img{
-		@include tamanos(auto, 1180px, 1180px); 
+		@include tamanos(auto, 1180px, 1180px);
+		object-fit: cover;
 	}
+}
+
+// CONTACTO
+.flexContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px;
 }
 
 // PRESS
@@ -28,11 +36,4 @@ body{
 			font-weight: bold;
 		}
 	}
-}
-
-.flexContainer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding: 20px;
 }

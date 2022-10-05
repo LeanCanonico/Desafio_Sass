@@ -68,24 +68,23 @@ body {
   background-color: #161616;
   filter: opacity(99%); }
 
-.imgNormalizadaCarousel {
-  object-fit: contain; }
-  .imgNormalizadaCarousel img {
-    width: auto;
-    height: 1180px;
-    max-height: 1180px; }
-
-.carousel-caption a {
-  transition: font-size 2s; }
-  .carousel-caption a:hover {
-    color: #c21a1a;
-    font-weight: bold; }
+.imgNormalizadaCarousel img {
+  width: auto;
+  height: 1180px;
+  max-height: 1180px;
+  object-fit: cover; }
 
 .flexContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px; }
+
+.carousel-caption a {
+  transition: font-size 2s; }
+  .carousel-caption a:hover {
+    color: #c21a1a;
+    font-weight: bold; }
 
 @media only screen and (max-width: 768px) {
   .logoNav {
@@ -128,6 +127,8 @@ body {
     height: auto; } }
 
 @media only screen and (max-width: 768px) {
+  .imgContacto {
+    object-fit: contain; }
   .flexContainer {
     display: flex;
     flex-direction: column; }
